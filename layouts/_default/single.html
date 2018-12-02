@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html class="no-js">
+{{ partial "base/head" . }}
+<body class="bg-light main-body">
+    {{ partial "base/header" . }}
+    {{ partial "pieces/author" . }}
+    <article>
+        {{ .Content }}
+    </article>
+    {{ partial "base/footer" . }}
+    {{ partial "base/foot" . }}
+</body></html>
